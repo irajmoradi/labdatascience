@@ -117,7 +117,7 @@ The purpose of this lab is to both get you familiar with using these non-github 
 
     | recurrence           | solution                       | practical application                     |
     | -------------------- | ------------------------------ | ----------------------------------------- |
-    | T(n) = T(n/2) + n    | $\Theta(n\text{log}(n) )$      | runtime of the bad binary search          |
+    | T(n) = T(n/2) + n    | $\Theta(n )$                   | runtime of the bad binary search          |
     | T(n) = T(n/2) + 1    | $\Theta(\text{log}n         )$ | runtime of the correct binary search      |
     | T(n) = T(n/3) + 1    | $\Theta(\text{log}n         )$ | runtime of "trinary search"               |
     | T(n) = 2T(n/2) + 1   | $\Theta(n)$                    | runtime for [finding the median of an unsorted list](https://en.wikipedia.org/wiki/Quickselect) |
